@@ -1,3 +1,7 @@
+forked from smalot/pdfparser
+
+HOT FIX: use strict in in_array (problem with compare spl-object-hash https://www.php.net/manual/en/function.spl-object-hash.php [Object hashes should be compared for identity with === and !==, because the returned hash could be a numeric string. For example: 0000000000000e600000000000000000.])
+
 # PDF parser
 
 [![Version](https://poser.pugx.org/smalot/pdfparser/v)](//packagist.org/packages/smalot/pdfparser)
